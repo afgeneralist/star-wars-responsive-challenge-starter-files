@@ -1,21 +1,21 @@
-/* When I enable this code, the images widths are funny. These comments are meant for me to explain over the phone 
-and not for it to be understandable without*/
 * {
   width: 100%;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
  }
-*/
+
  body {
  	margin: 0 0;
  }
 
 header {
 	background-color: yellow;
+	width: 100%;
 }
 
 h1, h2 {
-	margin-left: 25%;
+	text-align: left;
+	margin-left: 20%;
 }
 
 .card {
@@ -23,11 +23,9 @@ h1, h2 {
 	margin-top: 50px;
 }
 
-
-/*Sara, I kept having to adjust the image size to fit the box depending on .card margins. 
-Also, as I decrease the screensize, the images start to overlap before the mobile defaults take over.Lets talk about this */
 img {
-	width: 296px;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 h3 {

@@ -25,12 +25,12 @@
   padding-right: 1.04166666%;
 }
 
-/* mobile defaults 
+/* mobile defaults */
 .col-4  {
 	width: 100%;
-} */
+} 
 
-/*non-mobile, grid */
+/* non-mobile, grid */
 @media only screen and (min-width: 640px) {
 .col-4 {
 	width: 33.33%;
